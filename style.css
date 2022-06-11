@@ -17,12 +17,13 @@ a {
     text-decoration: none;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-#weather{
+
+#weather {
     display: flex;
     flex-direction: column;
     background-color: #49963a;
@@ -30,42 +31,48 @@ a {
     height: 200px;
     border-radius: 20px;
 }
-.weatherPreload{
+
+.weatherPreload {
     display: flex;
     justify-content: center;
     align-content: center;
 
 }
-.weatherPreload img{
+
+.weatherPreload img {
     margin: 20px 0;
 }
 
 
-.weatherHeader{
+.weatherHeader {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     padding-left: 30px;
 
 }
-.weatherIcon{
+
+.weatherIcon {
     position: relative;
 }
-.weatherIcon img{
+
+.weatherIcon img {
     width: 100px;
     position: absolute;
     right: 20px;
 }
-.weatherMain{
+
+.weatherMain {
     font-size: 1.8rem;
     text-transform: uppercase;
 }
 
-.weatherTemp, .weatherCity{
+.weatherTemp, .weatherCity {
     font-weight: bold;
     font-size: 2.5rem;
 }
-.weatherFeeldsLike,.weatherTemp,.weatherHeader{
+
+.weatherFeeldsLike, .weatherTemp, .weatherHeader {
     padding-left: 30px;
 
 }
